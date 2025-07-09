@@ -4,8 +4,8 @@
 
 This [Cordova](https://cordova.apache.org) Plugin is for a better (multiple) ImagePicker with more options.
 
-It currently uses [Yummypets/YPImagePicker](https://github.com/Yummypets/YPImagePicker) (Version `5.2.1`) on iOS and 
-[ParkSangGwon/TedImagePicker](https://github.com/ParkSangGwon/TedImagePicker) (Default-Version `1.2.8`) on Android. 
+It currently uses [Yummypets/YPImagePicker](https://github.com/Yummypets/YPImagePicker) (Version `5.2.2`) on iOS and
+[ParkSangGwon/TedImagePicker](https://github.com/ParkSangGwon/TedImagePicker) (Default-Version `1.2.8`) on Android.
 
 **This Plugin is in active development!**
 
@@ -50,7 +50,7 @@ Please consider donating if you're using this plugin in an app that makes you mo
 - **cordova-android** `>= 9.0.0`
 
 ## Android
-Because the used Framework uses AndroidX and is developed in Kotlin, make sure to enable `AndroidXEnabled` and `GradlePluginKotlinEnabled`: 
+Because the used Framework uses AndroidX and is developed in Kotlin, make sure to enable `AndroidXEnabled` and `GradlePluginKotlinEnabled`:
 ```xml
 <preference name="AndroidXEnabled" value="true"/>
 <preference name="GradlePluginKotlinEnabled" value="true"/>
@@ -66,7 +66,7 @@ I developed it, testing with **cordova-ios@6.1.0**.
 
 ## Android
 
-- ANDROID_IMAGE_PICKER_VERSION - Version of `gun0912.ted:tedimagepicker` / default to `1.2.8` 
+- ANDROID_IMAGE_PICKER_VERSION - Version of `gun0912.ted:tedimagepicker` / default to `1.2.8`
 
 ## iOS
 
@@ -109,10 +109,10 @@ This is mostly something like an Exception Message.
 The following Error Codes can be fired by this Plugin:
 - UnsupportedAction
 - WrongJsonObject
-- PickerCanceled  
+- PickerCanceled
 - UnknownError
 
-They can be accessed over for Example `window.AdvancedImagePicker.ErrorCodes.UnsupportedAction` and are present in the TypeScript definition too of course. 
+They can be accessed over for Example `window.AdvancedImagePicker.ErrorCodes.UnsupportedAction` and are present in the TypeScript definition too of course.
 
 # Api
 
